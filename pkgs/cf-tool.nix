@@ -12,8 +12,8 @@ pkgs.buildGoModule rec {
     meta = with lib; {
         description = "Codeforces Tool is a command-line interface tool for Codeforces.";
         homepage = "https://github.com/xalanq/cf-tool";
-        licence = licences.mit;
-        maintainers = with pkgs.maintainers; [ rickyxrc ];
-        platforms = platforms.all;
+        # licence = licences.mit;
+        # maintainers = with pkgs.maintainers; [ rickyxrc ];
+        # platforms = platforms.all;
     };
 }
